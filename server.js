@@ -10,7 +10,7 @@ app.set('port', process.env.PORT || 3000);
 app.get('/', function (req, res) {
     // res.send("Koodikerho lähettää tekstiä!");
     // res.sendFile('views/index.html' , { root : __dirname});
-    // res.sendFile('index.html');
+    res.sendFile('index.html');
 })
 
 app.listen(app.get('port'), function () {
