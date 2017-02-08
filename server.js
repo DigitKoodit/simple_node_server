@@ -7,8 +7,8 @@ app.use(express.static('views'));
 
 app.set('port', process.env.PORT || 3000);
 
-app.get('/', function (req, res) {
-    res.sendFile('index.html');
+app.get('/', function (request, response) {
+    response.sendFile('index.html');
 })
 
 app.listen(app.get('port'), function () {
