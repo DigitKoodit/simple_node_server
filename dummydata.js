@@ -1,5 +1,5 @@
 module.exports = {
-    opiskelijat: function () {
+    getEmployees: function (callback) {
         var o = [{
             "id": 1,
             "first_name": "Michelle",
@@ -352,7 +352,7 @@ module.exports = {
             "ip_address": "247.81.23.73"
         }];
         setTimeout(function() {
-            return o;
+            callback(o);
         }, 0);
         
     }

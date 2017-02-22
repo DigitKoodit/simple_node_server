@@ -7,6 +7,9 @@ app.use(express.static('views'));
 
 app.set('port', process.env.PORT || 3000);
 
+require('./api/employee')(app); 
+
+
 app.get('/', function (request, response) {
     response.sendFile('index.html');
 })
