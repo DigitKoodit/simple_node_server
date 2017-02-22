@@ -1,6 +1,6 @@
 module.exports = {
     getEmployees: function (callback) {
-        var o = [{
+        var employees = [{
             "id": 1,
             "first_name": "Michelle",
             "last_name": "West",
@@ -231,128 +231,9 @@ module.exports = {
             "email": "hwilsonw@fc2.com",
             "gender": "Male",
             "ip_address": "212.117.144.148"
-        }, {
-            "id": 34,
-            "first_name": "Eric",
-            "last_name": "Arnold",
-            "email": "earnoldx@nydailynews.com",
-            "gender": "Male",
-            "ip_address": "52.158.187.175"
-        }, {
-            "id": 35,
-            "first_name": "Patricia",
-            "last_name": "Dixon",
-            "email": "pdixony@nba.com",
-            "gender": "Female",
-            "ip_address": "239.200.8.176"
-        }, {
-            "id": 36,
-            "first_name": "Donna",
-            "last_name": "Nelson",
-            "email": "dnelsonz@mashable.com",
-            "gender": "Female",
-            "ip_address": "177.225.250.233"
-        }, {
-            "id": 37,
-            "first_name": "Christina",
-            "last_name": "Peterson",
-            "email": "cpeterson10@cam.ac.uk",
-            "gender": "Female",
-            "ip_address": "251.184.97.208"
-        }, {
-            "id": 38,
-            "first_name": "Doris",
-            "last_name": "Harper",
-            "email": "dharper11@oracle.com",
-            "gender": "Female",
-            "ip_address": "84.133.235.164"
-        }, {
-            "id": 39,
-            "first_name": "Norma",
-            "last_name": "Castillo",
-            "email": "ncastillo12@about.me",
-            "gender": "Female",
-            "ip_address": "246.148.99.253"
-        }, {
-            "id": 40,
-            "first_name": "Wayne",
-            "last_name": "Anderson",
-            "email": "wanderson13@yale.edu",
-            "gender": "Male",
-            "ip_address": "234.98.221.203"
-        }, {
-            "id": 41,
-            "first_name": "Emily",
-            "last_name": "Armstrong",
-            "email": "earmstrong14@accuweather.com",
-            "gender": "Female",
-            "ip_address": "96.151.106.250"
-        }, {
-            "id": 42,
-            "first_name": "Walter",
-            "last_name": "Gonzales",
-            "email": "wgonzales15@statcounter.com",
-            "gender": "Male",
-            "ip_address": "186.82.88.162"
-        }, {
-            "id": 43,
-            "first_name": "Irene",
-            "last_name": "Gray",
-            "email": "igray16@ebay.com",
-            "gender": "Female",
-            "ip_address": "125.174.151.240"
-        }, {
-            "id": 44,
-            "first_name": "Janice",
-            "last_name": "Thompson",
-            "email": "jthompson17@cisco.com",
-            "gender": "Female",
-            "ip_address": "33.99.254.83"
-        }, {
-            "id": 45,
-            "first_name": "Roger",
-            "last_name": "Price",
-            "email": "rprice18@nps.gov",
-            "gender": "Male",
-            "ip_address": "60.185.233.164"
-        }, {
-            "id": 46,
-            "first_name": "Scott",
-            "last_name": "Andrews",
-            "email": "sandrews19@wufoo.com",
-            "gender": "Male",
-            "ip_address": "96.249.174.0"
-        }, {
-            "id": 47,
-            "first_name": "Ashley",
-            "last_name": "Rodriguez",
-            "email": "arodriguez1a@biblegateway.com",
-            "gender": "Female",
-            "ip_address": "62.127.24.4"
-        }, {
-            "id": 48,
-            "first_name": "Stephanie",
-            "last_name": "Larson",
-            "email": "slarson1b@booking.com",
-            "gender": "Female",
-            "ip_address": "36.172.144.3"
-        }, {
-            "id": 49,
-            "first_name": "Linda",
-            "last_name": "Scott",
-            "email": "lscott1c@delicious.com",
-            "gender": "Female",
-            "ip_address": "229.227.114.217"
-        }, {
-            "id": 50,
-            "first_name": "Lori",
-            "last_name": "Vasquez",
-            "email": "lvasquez1d@unblog.fr",
-            "gender": "Female",
-            "ip_address": "247.81.23.73"
         }];
         setTimeout(function() {
-            callback(o);
+            callback(employees);
         }, 0);
         
     }
