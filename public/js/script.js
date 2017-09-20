@@ -7,7 +7,7 @@
 $(document).ready(function() {
     console.warn('document is ready.');
 
-    $.get('/employee/getEmployees', function(data, status) {
+    /* $.get('/employee/getEmployees', function(data, status) {
         // console.log(data);
         renderTable(data);
     })
@@ -17,5 +17,5 @@ $(document).ready(function() {
             $('#employee-table').find('tbody')
             .append('<tr><td>' + data[i].first_name + '</td><td>' + data[i].last_name + '</td><td>' + data[i].email + '</td></tr>');
         }
-    }
+    } */
 })
