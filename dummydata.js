@@ -234,7 +234,7 @@ module.exports = {
         }];
         setTimeout(function() {
             callback(employees);
-        }, 500);
+        }, 1000);
         
     }
 }
